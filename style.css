@@ -270,18 +270,18 @@ h1 em{
 
 }
 .home-img img{
-    width: 200px;
+    width: 280px;
 
 }
 @keyframes move {
     from{right:0px}
-    to{right:5%}
+    to{right: -1%}
     
 }
 /* cofeee */
 .coffee-container .coffee-cup{
-    width: 150px;
-    height: 170px;
+    width: 190px;
+    height: 190px;
 
 }
 .coffee-cup img{
@@ -290,8 +290,8 @@ h1 em{
 
 }
 .coffee-cup h2{
-    font-size: medium;
-    margin-top: -20px;
+    font-size: small;
+    padding-top:10% ;
 }
 .coffee-cup p{
     font-size: 1.7vh;
@@ -381,12 +381,13 @@ h1 em{
 }
 .coffee-cup h2{
    
-    margin-top: 2px;
+    margin-top: -2px;
+
     font-size: small;
 
 }
 .coffee-cup p{
-    padding-bottom: -30px;
+    margin-bottom: -4%;
 
 }
 
