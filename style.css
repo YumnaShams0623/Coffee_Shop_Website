@@ -186,7 +186,7 @@ h1 em{
 }
 
 .home-heading button{
-    padding: 5px;
+    padding: 6px;
 
 }
 .offer{
@@ -198,7 +198,7 @@ h1 em{
 
 }
 .home-img img{
-    width: 300px;
+    width: 200px;
 
 }
 @keyframes move {
@@ -226,5 +226,45 @@ h1 em{
         padding: 8px 8px;
         font-size: 1.6vh;
         font-weight: 500;
+    }
+
+    /* HOme */
+    .home-heading{
+        padding: 60px 20px;
+
+    }
+    .home-heading h1{
+        font-size: 3vh;
+
+    }
+    h1 em{
+        font-size: 7vh;
+    }s
+    .home-heading img{
+        width: 20px;
+        padding: 2px;
+        margin: 8px 0;
+        margin-bottom: 0px;
+    }
+    .home-heading p{
+        font-size: 1.3vh;
+
+    }
+    .home-heading button{
+        padding: 3px;
+        margin-left: 5px;
+        font-size: 1.3vh;
+    }
+    .offer{
+        margin-top: -40px;
+    }
+    .offer img{
+        width: 200px;
+    }
+
+    @keyframes move {
+        from{right:0}
+        to{right: 5%}
+        
     }
 }
